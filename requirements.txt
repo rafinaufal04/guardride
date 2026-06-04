@@ -1,0 +1,6 @@
+streamlit
+scikit-learn
+joblib
+pandas
+Sastrawi==1.0.1
+streamlit-local-storage
