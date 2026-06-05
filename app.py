@@ -217,8 +217,6 @@ def halaman_analisis():
                 st.error(f"❌ {hasil['error']}")
             else:
                 with st.container(border=True):
-                    st.subheader("📊 Hasil Analisis")
-                    
                     getattr(st, hasil["warna"])(f"### {hasil['status']}")
 
                     with st.expander("Lihat Detail Probabilitas & Kata Kunci"):
